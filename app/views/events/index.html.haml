@@ -1,0 +1,12 @@
+.side
+  .side__user-box
+    - @users.each do |user|
+      .side__user-box__ame
+        = user.name
+      .side__user-box__image
+  = link_to new_event_path do
+    .side__new スケジュール入力
+
+.main
+  #calendar
+  

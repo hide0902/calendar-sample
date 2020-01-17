@@ -1,0 +1,24 @@
+// Place all the styles related to the events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.side {
+  display: flex;
+  height: 100vh;
+  width: 250px;
+  float: left;
+  background-color: #c0c0c0;
+
+  &__user-box {
+    height: 30px;
+  }
+  
+  &__new {
+    
+    
+    padding-right: 5px;
+  }
+}
+.main {
+  display: flex;
+  
+}
